@@ -1,0 +1,19 @@
+{
+  "liste_question":[
+  {
+    "question": "what is an Activity ?",
+    "answer": "Defines the visual structure for a user interface"
+  },
+  {
+    "question": "what is an Intent ?",
+    "answer": "Intents are asynchronous messages that send activities services and broadcast receivers"
+  },
+  {
+  "question": "what is a Service ?",
+  "answer": "Services are used to perform prolonged tasks or tasks for remote processes in the background"
+  }
+
+
+  ]
+
+}

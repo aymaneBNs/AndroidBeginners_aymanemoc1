@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:background="@color/abc_search_url_text_normal"
+        android:alpha="0.7">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tape  Next Question To Generate a Random one"
+            android:id="@+id/widgetTV"
+            android:layout_margin="10dp"
+            android:textColor="#fbf7f7"
+            android:textSize="18dp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEE ANSWER"
+            android:id="@+id/answer_button"
+            android:layout_weight="1"
+            android:background="#eb1919"
+            android:layout_margin="5dp"
+            android:onClick="DisplayAnswer"
+            android:alpha="0.8"
+            android:allowUndo="false" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEXT QUESTION"
+            android:id="@+id/next_button"
+            android:layout_weight="1"
+            android:background="#f61111"
+            android:layout_margin="5dp"
+            android:alpha="0.8" />
+    </LinearLayout>
+
+</LinearLayout>
