@@ -82,12 +82,11 @@ TextView card_item;
         public void OnBindViewFromHolder(Cursor c){
             new_question =c.getString(c.getColumnIndex(DBcontract.DBDefinition.COLUM2));
             new_answer=c.getString(c.getColumnIndex(DBcontract.DBDefinition.COLUM3));
-
-            if(!(Question_Liste.contains(new_question))) {
+         
                 Question_Liste.add(new_question);
                 Answer_Liste.add(new_answer);
                 card_item.setText(" "+c.getString(c.getColumnIndex(DBcontract.DBDefinition.COLUM2)));
-            }
+            
 
 
         }
@@ -108,14 +107,7 @@ TextView card_item;
 
 
 
-      /*  @Override
-        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
-            Intent intent= new Intent(context, Suffciency.class);
-            intent.putExtra("question",Question_List.get(getLayoutPosition()));
-            intent.putExtra("answer",Answer_List.get(getLayoutPosition()));
-            context.startActivity(intent);
-        }*/
+     
     }
 
 
